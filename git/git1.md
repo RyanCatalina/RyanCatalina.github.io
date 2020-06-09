@@ -6,7 +6,6 @@
 
 [返回git 主页](/index.md)
 
-
 ## 正文开始
 
 git 中全局设置用户名、邮箱的操作如下，当然这一切的前提条件是已经安装好git 的客户端
@@ -67,7 +66,6 @@ git pull
 git push -u origin master
 或
 git push
-
 
 ## 更新代码
 
