@@ -1,10 +1,11 @@
-[toc]
-
 # 配置git
 
 ## 页面跳转
 
-[返回首页](https://ryancatalina.github.io/)
+[返回网站首页](https://ryancatalina.github.io/)
+
+[返回git 主页](/index.md)
+
 
 ## 正文开始
 
