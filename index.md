@@ -1,37 +1,94 @@
-## Welcome to GitHub Pages
+@[toc]
+# Docker基本概念
 
-You can use the [editor on GitHub](https://github.com/RyanCatalina/RyanCatalina.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+## layer
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Docker 和Docker Hub的关系就相当于Git 与GitHub 之间的关系。
 
-### Markdown
+Docker 在很多方面都借鉴了Github。
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Docker 使用layer 的概念，你可能会发现，有许多个lay 的编号相同，每个layer 都有唯一的id。
 
-```markdown
-Syntax highlighted code block
+## 拉取镜像
 
-# Header 1
-## Header 2
-### Header 3
+docker pull [image]
 
-- Bulleted
-- List
+## 搜索镜像
 
-1. Numbered
-2. List
+语法：docker search [option] keyword
 
-**Bold** and _Italic_ and `Code` text
+option:
 
-[Link](url) and ![Image](src)
-```
+    -f,--filter filter: 过滤输出内容
+    --format string：格式化输出内容
+    --limit int：限制输出结果个数，默认为25个
+    --no-trunc：不截断输出结果
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## 查看镜像信息
 
-### Jekyll Themes
+### 使用images 命令列出镜像
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/RyanCatalina/RyanCatalina.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+使用docker images或docker image ls 命令列出已有的镜像基本信息。
 
-### Support or Contact
+images 子命令支持的[options]
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+    -a, --all=true|false: 列出所有（包括临时文件）镜像文件，默认否
+    --digests=true|false: 列出镜像的数字摘要值，默认为否
+    -f,--filter=[]: 过滤列出的镜像，如dangling=true 只显示没有被使用的镜像；也可指定带有特定标注的镜像
+    。。。。。。
+
+更多可使用man docker-images 查看命令
+
+### 使用tag 命令添加镜像标签
+
+命令格式：docker tag [image:tag(修改前)]  [image:tag(修改后, image和tag 都可修改)]
+
+### 使用inspect 命令查看详细信息
+
+使用docker [image] inspect 命令可查看镜像详细信息,返回的json 格式，包括制作者、适应架构、各层的数字摘要等。
+
+option:
+
+    -f: 可指定想要的信息
+    eg: docker [image] inspect -f {{".Architecture"}} ubuntu:18.04
+
+### 使用history 命令查看镜像历史
+
+命令格式：
+    docker history [image:tag]
+
+options:
+    --no-trunc 输出查询结果中的完整命令
+
+## 删除和清理镜像
+
+### 使用标签删除镜像
+
+使用docker rmi 或 docker image rm命令可以删除镜像，
+命令格式：docker rmi IMAGE [IMAGE...],其中IMAGE可以为标签或ID。
+
+options:
+
+    -f,-force: 强制删除镜像，即使有容器依赖它
+    -no-prune: 不清理未带标签的父镜像
+
+注意：当镜像文件有多个标签的时候，会先删除标签，直到只有最后一个标签，才会彻底删除镜像文件。
+
+### 使用镜像id 来删除镜像
+
+命令格式：docker rmi 镜像id
+
+option 可参考上一条
+
+### 清理镜像
+
+使用docker 一段时间后，系统中可能会遗留一些临时的镜像文件，以及一些被使用的镜像。
+
+命令格式： docker image prune
+
+option:
+
+    -a,-all: 删除所有无用的镜像，而不光是临时镜像
+    -filter filter: 只清理符合给定的过滤器对象
+    -f,-force: 强制删除镜像，而不进行提示确认
+
