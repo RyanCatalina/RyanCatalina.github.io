@@ -4,7 +4,7 @@
 
 ## 页面跳转
 
-[返回首页](/index.md)
+[返回首页](https://ryancatalina.github.io/)
 
 ## 正文开始
 
