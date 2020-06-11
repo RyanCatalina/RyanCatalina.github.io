@@ -4,3 +4,5 @@
 
 [lsof 命令](/lsof.md)
 [DNS 的记录](/recordDNS.md)
+[apt-get](/apt-get.md)
+[bg&dg](/bg&dg.md)
