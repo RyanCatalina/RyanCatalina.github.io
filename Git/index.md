@@ -5,3 +5,5 @@
 [git1](/git1.md)
 
 [gitToGitHub](/gitToGitHub.md)
+
+[git_command_mv](/git_command_mv.md)
