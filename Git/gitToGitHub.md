@@ -91,3 +91,37 @@ git commit -m "尝试更新"
 git push -u origin master
 或
 git push
+
+# Git 工作区域
+
+Git Repository （Git 仓库）        最终确定的文件保存到仓库，成为一个新的版本
+|
+v  git add hello.php       git add test.php     
+|
+暂存区    git status                      暂存已经修改的文件最后统一提交到git 仓库中
+|
+v  git commit -m "提交测试" 
+|
+Working Directory                 添加、编辑、修改文件等动作
+
+git status
+
+# 修改文件
+
+vi/vim 方式
+
+Windows 笔记本编辑器
+
+# 创建文件夹
+
+touch 
+
+mkdir
+
+# 删除文件
+
+rm -rf a1.php
+
+git rm a1.php
+
+git commit -m
