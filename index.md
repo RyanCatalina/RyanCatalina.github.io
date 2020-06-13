@@ -1,9 +1,9 @@
 # 页面目录
 
-[docker](/docker/index.md)
+[docker](/Docker/index.md)
 
-[git](/git/index.md)
+[git](/Git/index.md)
 
-[linux](/linux/index.md)
+[linux](/Linux/index.md)
 
-[msic](/msic/index.md)
+[msic](/Msic/index.md)
