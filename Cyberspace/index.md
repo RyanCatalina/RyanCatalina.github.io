@@ -1,0 +1,28 @@
+# NetworkSecurity 页面跳转
+
+[返回网站首页](https://ryancatalina.github.io/)
+
+网络空间安全（Cyberspace）到底在干啥？
+
+网络安全的两套标准：国际和国内
+    ISO 2700X
+    网络安全等级保护2.0（等保2.0）
+
+网络空间安全------------>Network Security（防火墙、入侵检测/防御、网关、网闸、身份监管。。。）
+
+Web 安全 -------------->Web Application Security-------->前端安全（XSS...）
+                                            |----------->后端安全（文件上传...）
+                                            |----------->数据安全
+                                            |----------->通信安全
+                        WAF （Web 应用防火墙）
+
+移动安全（Mobile Security）------------>iOS安全、Android安全、小程序安全
+
+云计算安全（Cloud Security）--------->平台安全、容器安全、虚拟机安全、云主机安全、云网络
+
+系统安全（桌面/终端/主机 安全）----->Desktop Security----->Windows 安全
+                                                |------->Linux 安全
+                                                |------->Mac OS 安全
+
+行业分类
+学习方向
