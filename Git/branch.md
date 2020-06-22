@@ -25,3 +25,55 @@ Topic分支是为了开发新功能或修复Bug等任务而建立的分支。若
 
 Topic分支是从稳定的Merge分支创建的。完成作业后，要把Topic分支合并回Merge分支。
 
+## 建立分支
+
+创建newbranch 分支
+
+git branch newbranch
+
+## 查看branch 列表
+
+git branch
+
+## 切换HEAD 到指定的branch
+
+git checkout <branch>
+
+切换待newbranch 分支
+git checkout newbranch
+
+在checkout 命令指定-b 选项执行，可以创建分支并进行切换
+
+```
+git checkout -b <branch>
+```
+
+## 合并分支
+
+合并分支是向HEAD 指向的分支合并，一般先切换到主分支
+git checkout master
+再merge 分支
+git merge newbranch
+
+## 删除分支
+
+在branch 命令指定-d 选项执行，以删除分支
+
+git branch -d <branchname>
+
+例如执行以下的命令删除newbranch 分支
+
+git branch -d newbranch
+
+## 解决合并的冲突
+
+先分别创建两个分支，再进行添加修改删除等操作，最后通过git add/commit 等命令完成分支编写。
+
+最后切换到master 分支，使用git merge 执行合并，一般第一次合并为fast-forward(快进)合并，
+接下来的一般是non fast-forward 合并。
+
+## fetch 命令
+
+执行pull，远程数据库的内容就会自动合并。而使用fetch 则不会合并，执行fetch 就可以取得远程数据库的最新历史记录，取得的提交会导入到没有名字的分支，这个分支可以从名为FETCH_HEAD 的退出。
+
+合并后，历史记录会和pull 相同，实际上pull 的内容是fetch + merge 组成的。
