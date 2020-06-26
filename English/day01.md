@@ -40,3 +40,7 @@ handbag      n.女用手提包
 
 Glad to meet you.
 很高兴认识你
+
+glad 
+    adj.高兴的
+    
