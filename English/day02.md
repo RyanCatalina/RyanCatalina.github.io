@@ -89,3 +89,10 @@ Thank you. 谢谢。
 Thank you very much. 非常感谢。    very much： 非常地
 Thanks. 谢谢。
 Thank you a lot. 非常感谢。      a lot: 非常地，十分地
+
+# Cultural Tidbits
+文化趣闻
+tidbit   n.趣闻轶事，小新闻
+
+Scotland 苏格兰
+kilt 苏格兰短裙
