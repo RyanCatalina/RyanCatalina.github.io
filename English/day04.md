@@ -35,8 +35,8 @@ sir 也是“先生”的意思，常常单独使用，一般是不认识的
 
 Alex Johnny Wilson：阿雷克斯·约翰·威尔逊先生
 Alex: first name, 可能是教父，牧师，或者父母起的
-Wilson: 相当于汉语姓名中的姓氏，英语中的family name，<我们汉语的姓氏是放在前面的，而英语的是放在后面的>
-Johnny: middle name
+Wilson: family name, 相当于汉语姓名中的姓氏，英语中的family name，<我们汉语的姓氏是放在前面的，而英语的是放在后面的>
+Johnny: middle name,是父母或亲戚所取，一般取长者的名或姓，常常省略。
 Alex Johnny Wilson 可简写为Alex Wilson
 Alex Johnny Wilson 可杯称作Mr. Wilson
 
