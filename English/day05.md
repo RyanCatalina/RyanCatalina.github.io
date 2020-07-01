@@ -74,7 +74,7 @@ I'm Italian.
     What 提问句型 ----> What's your name?
     's 是is 的缩写形式
     What is your name?
-    My name is Sophie
+    My name is Sophie.
 
 Are you a teacher?
 No, I'm not.
