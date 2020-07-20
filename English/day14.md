@@ -1,4 +1,4 @@
-# Lesson Mrs. Smith's kitchen
+# Lesson 13 Mrs. Smith's kitchen
 
 The quieter you become, the more you are able to hear
 
