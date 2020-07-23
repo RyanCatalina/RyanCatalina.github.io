@@ -71,7 +71,7 @@ I'm going to put it on this table, Sam.
     put on my coat = put my coat on
     若前面提到或双方都知道，可用put it on
 
-    take off my shoes = take my shoes off = them off
+    take off my shoes = take my shoes off = take them off
 
     turn on the television = turn the television on = turn it on 
 
