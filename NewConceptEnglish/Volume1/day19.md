@@ -189,7 +189,10 @@ Why is she sitting under the tree?
 # Review
 
 1. 表示方向的介词和短语
+    between, along, across, beside, out of, into
 2. 一般疑问句，特殊疑问句
+    一般疑问句：以yes, no来做回答的疑问句
+    特殊疑问句：以特殊疑问词引导，对某个成分提问的疑问句
 
 # Cultural Tidbits
 
