@@ -181,3 +181,6 @@ nine thousand
 # Cultural Tidbits
 
 饼干故事
+biscuit （饼干）法语
+bis- 表示两个
+cuit 即cuire vt.烧、煮
