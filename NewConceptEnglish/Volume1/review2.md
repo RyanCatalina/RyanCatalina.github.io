@@ -429,4 +429,25 @@ greengrocer's 蔬菜水果店
         结构：be的现在时(am,is,are)+现在分词
         She's sitting under the tree.
         He's climbing the tree.
-        
+
+        现在分词：
+            对于大多数动词来说，在动词后面直接加ing 形式就可用构成现在分词。
+                doing / climbing
+            以字母e 结尾的单词：去e + ing 
+                make -> making
+            如果动词只有一个元音字母，后面跟了一个辅音字母，则需要双写最后一个辅音字母，再加ing
+                running / sitting 
+    3.一般过去时：过去发生的，现在已经结束的动作
+        结构：
+            1. 当动作是be动词时：第一，第三人称单数：was 其他情况：were
+                I was a student.
+                We were good firends.
+            2. be动词以外的动词
+                规则动词，在动词后加ed  
+                    answer -> answered
+                以字母e结尾的动词，直接加d
+                    telephone -> telephoned
+                    arrive -> arrived
+                不规则动词
+                    do -> did 
+                    say -> said
