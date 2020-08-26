@@ -1,4 +1,4 @@
-d# Lesson51 Ow!
+# Lesson51 Ow!
 
 The quieter you become, the more you are able to hear.
 
