@@ -177,7 +177,7 @@ He'll be her sixth husband!
     can't->couldn't
     will->would
     won't->wouldn't
-    be going to -> would/was going to 
+    be going to -> would // was going to 
 
 2. 未婚夫fiance 
     未婚妻fiancee
