@@ -133,3 +133,7 @@ Last week I went to the theatre. I had a very good seat. The play was very inter
     建议用英文发表状态
 
     He who laughs last laughs best!
+
+# Summary writing
+
+Last week the writer went to the theatre, he isn't enjoy the play, a young man and a young woman were sitting behind him, there talking loudly, hen't hear the actors, he turn round, 'I can't hear a word!' he said angrily, the young man said both. 【39字】
