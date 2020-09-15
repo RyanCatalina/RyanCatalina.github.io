@@ -1,4 +1,4 @@
-# Lesson 05 No wrong numbers
+# Lesson 06 Percy Buttons
 
 The quieter you become, the more you are able to hear.
 
